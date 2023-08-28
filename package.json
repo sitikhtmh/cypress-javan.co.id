@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "tes qa",
+  "main": "index.js",
+  "repository": "https://javan.co.id/",
+  "author": "siti khotimah",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.10.0"
+  }
+}
